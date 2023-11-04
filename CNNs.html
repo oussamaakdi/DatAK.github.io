@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Dat'Ak</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+			<header id="header">
+				<h1><a href="index.html">Dat'AK</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li>
+							<a href="#" class="icon solid fa-angle-down">Menu</a>
+							<ul>
+								<li><a href="About Dat'AK.html">About Dat'AK</a></li>
+								<li><a href="Ressources.html">Helpful Materials</a></li>
+								<li><a href="Projects.html">Projects</a></li>
+								<li><a href="contact.html">Contact</a></li>
+							</ul>
+						</li>
+						
+					</ul>
+				</nav>
+			</header>
+
+			<!-- Main -->
+				<section id="main" class="container">
+					<header>
+						<h2>Building a multiclass classifier using CNNs for image classification</h2>
+					</header>
+					<div class="box">
+						<span class="image featured"><img src="images/CNN.jpg" alt="" /></span>
+						<h3>Description</h3>
+						<p>In this project, we've constructed a multiclass classifier using Convolutional Neural Networks (CNNs) for image classification. CNNs are a type of deep learning model widely employed in computer vision tasks due to their remarkable ability to automatically extract features from images. These features, learned through convolutional layers, enable CNNs to classify images accurately.</p>
+						<div class="row">
+							<div class="row-6 row-12-mobilep">
+								<h3>Understanding CNNs and Kernels</h3>
+								<p>CNNs are inspired by the human visual system, with layers of neurons that progressively analyze an image. Convolutional layers employ filters, also known as kernels, to scan the image. These kernels detect features like edges, shapes, and textures, gradually forming a rich understanding of the image content. In our project, we utilize the power of kernels to recognize and classify fruits.</p>
+							</div>
+							<div class="row-6 row-12-mobilep">
+								<h3>Creating and Cleaning the Dataset</h3>
+								<p>To train our model, we first needed a dataset. In the <a href="Ressources.html">Useful Materials</a> section , we've provided guidance on obtaining an image dataset. Our dataset consists of three classes: "banana," "strawberry," and "apple." The process involved cleaning the dataset by removing incompatible images and ensuring data consistency.</p>
+							</div>
+							<div class="row-6 row-12-mobilep">
+								<h3>Data Preprocessing</h3>
+								<p>Data preprocessing is a crucial step. We divided the dataset into manageable batches, then further partitioned it into training, validation, and test datasets. This division ensures that our model learns effectively and can generalize to unseen data.</p>
+							</div>
+							<div class="row-6 row-12-mobilep">
+								<h3>Model Architecture</h3>
+								<p>Our model is a sequential neural network with multiple layers. It includes a series of consecutive convolutional layers and pooling layers. These layers work together to automatically learn essential features from the images, enabling accurate classification.</p>
+							</div>
+							<div class="row-6 row-12-mobilep">
+								<h3>Evaluation and Performance</h3>
+								<p>After training the model, we evaluated its performance using the cross-entropy metric. The evaluation allowed us to understand how well the model classifies the fruit images and provided insights into its accuracy and generalization capabilities.
+							<br> For the complete project, dataset, and Python Jupyter file, please explore the following links:<br>
+								<ul>
+									<li><a href="https://github.com/oussamaakdi/MultiClassCNNclassifier">Link to the Whole Project</a> </li>
+									<li><a href="https://github.com/oussamaakdi/MultiClassCNNclassifier/tree/main/data">Link to the Dataset Folder</a></li>
+									<li><a href="https://github.com/oussamaakdi/MultiClassCNNclassifier/blob/main/Classifier.ipynb">Link to the Python Jupyter File</a></li>
+								</ul><br>
+								To make things easy, download all project files, put them in one folder, and run the 'Classifier.ipynb' file.<br>
+								This project shows a practical implementation of CNNs for image classification and offers a resource for those interested in computer vision and deep learning.</p>
+							</div>
+
+						</div>
+					</div>
+				</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://www.facebook.com/profile.php?id=100083973133248" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="https://instagram.com/oussamaak94?igshid=OGQ5ZDc2ODk2ZA==" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://github.com/oussamaakdi" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto: akdi5831@gmail.com" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy;All rights reserved.</li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
